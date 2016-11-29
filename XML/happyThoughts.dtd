@@ -1,0 +1,3 @@
+<!ELEMENT HappyThoughts (thought+)>
+<!ATTLIST thought id ID author #REQUIRED>
+<!ELEMENT thought (#PCDATA)>
